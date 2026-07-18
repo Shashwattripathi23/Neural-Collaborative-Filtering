@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+
+# Preprocessing / splitting
+scikit-learn>=1.2
+
+# Model training
+# Note: install a PyTorch build appropriate for your system (CPU/CUDA).
+torch>=2.0
+
+# Hyperparameter tuning + plots (used by evaluation.py)
+optuna>=3.0
+matplotlib>=3.7
